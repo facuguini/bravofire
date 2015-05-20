@@ -1,0 +1,96 @@
+/*HEADER*/
+.header {
+	height: 300px;
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 44%, #a90329 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(44%,#8f0222), color-stop(100%,#a90329)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #6d0019 0%,#8f0222 44%,#a90329 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #6d0019 0%,#8f0222 44%,#a90329 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #6d0019 0%,#8f0222 44%,#a90329 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #6d0019 0%,#8f0222 44%,#a90329 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#a90329',GradientType=0 ); /* IE6-9 */
+}
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #EEE;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #EEE;
+    border-bottom-color: #EEE;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #EEE;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #FFF;
+    }
+}
+/*FOOTER*/
+.footer {
+	position: relative;
+    bottom: 0;
+    background: #a90329; /* Old browsers */
+}
+.footer h1 {
+	color: white;
+}
+.footer ul li {
+	color: white;
+}
+.footer p {
+	color: white;
+}
